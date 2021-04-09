@@ -4,7 +4,7 @@ const routes = require("./routes");
 
 const path = require("path");
 
-// Configuração da porta 
+// Configuração da porta - heroku
 var porta = process.env.PORT || 8080
 
 // Usando template engine
