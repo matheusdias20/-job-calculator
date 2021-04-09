@@ -4,6 +4,7 @@ const routes = require("./routes");
 
 const path = require("path");
 
+// Configuração da porta 
 var porta = process.env.PORT || 8080
 
 // Usando template engine
